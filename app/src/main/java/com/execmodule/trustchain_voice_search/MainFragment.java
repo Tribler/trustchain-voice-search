@@ -95,7 +95,7 @@ public class MainFragment extends Fragment {
                         @Override
                         public void run() {
                             try {
-                                json[0] = getJSONObjectFromURL("https://api.duckduckgo.com/?q=" + "some text" + "&format=json");
+                                json[0] = getJSONObjectFromURL("https://api.duckduckgo.com/?q=" + TextUtils.join("", result) + "&format=json");
                                 JSONArray relatedTopics = json[0].getJSONArray("RelatedTopics");
                                 ArrayList<String> listdata = new ArrayList<String>();
                                 if (relatedTopics != null) {
