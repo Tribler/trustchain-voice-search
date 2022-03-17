@@ -1,0 +1,4 @@
+#Thu Mar 10 11:02:07 CET 2022
+base.0=/Users/rmadhwal/IdeaProjects/trustchain-foc-demoapp/app/build/intermediates/dex/release/out/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
